@@ -8,11 +8,13 @@ This is a Chrome extension built using **React**, **TypeScript**, and **Webpack*
 ### Installation  
 
 1. Clone the repository:  
+
    ```bash
    git clone <repository-url>  
    cd <project-directory>
    ```
 2. Install dependencies:  
+
    ```bash
    npm install
    ```
