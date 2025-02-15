@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-extension-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for a simple chrome extension with react, typescript and webpack",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
